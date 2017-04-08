@@ -7,7 +7,7 @@ return(
   <div className='container'>
     <div className='navbar-header'>
       <ul className='nav navbar-nav'>
-        <li><a href='#'>{this.props.children}</a></li>
+<li><a href='#'>{this.props.children}</a></li>
 </ul>
 </div>
 </div>

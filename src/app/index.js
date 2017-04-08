@@ -6,16 +6,22 @@ import { Home } from "./components/Home";
 
 class App extends React.Component {
   render() {
+    var user = {
+      name: "Anna",
+      hobbies: ["Sports", "Reading", "Singing"]
+    };
     return (
       <div className="container">
         <div className='row'>
           <div className='col-xs-10 col-xs-offset-1'>
-            <Header/>
+            <Header>
+              <p>using the Class as opening and closing tags with props.children</p>
+            </Header>
           </div>
         </div>
         <div className='row'>
           <div className='col-xs-10 col-xs-offset-1'>
-            <Home/>
+            <Home name={"Fred"} age={"34"} user={user}/>
           </div>
         </div>
       </div>

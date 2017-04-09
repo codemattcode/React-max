@@ -31,7 +31,7 @@ class App extends React.Component {
             <Home name={"Fred"} age={"34"} user={user}/>
 
 
-            <Button/>
+            <Button name={"Johnny"}/>
           </div>
         </div>
       </div>

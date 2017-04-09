@@ -7,7 +7,6 @@ class App extends React.Component {
   render() {
 
     var user = {
-      name: "Anna",
       hobbies: ["Sports", "Reading", "Singing"]
     };
 

@@ -24,7 +24,7 @@ class App extends React.Component {
 
             <Header links={links}/>
 
-            <Home propString="Hello, World!"/>
+            <Home/>
 
             <Button raise={1}/>
             {/* <Button raise="Greeting"/> */}

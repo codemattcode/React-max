@@ -6,10 +6,9 @@ import { Home } from "./components/Home";
 import { Button } from "./components/Button";
 
 class App extends React.Component {
-  sayHello() {
-    alert('Hello!');
-  }
+
   render() {
+
     const bodyStyle = {
       maxWidth: '800px',
       width: '80%',
@@ -25,7 +24,7 @@ class App extends React.Component {
 
             <Header links={links}/>
 
-            <Home propString="Hello, World!" howdee={this.sayHello}/>
+            <Home propString="Hello, World!"/>
 
             <Button raise={1}/>
             {/* <Button raise="Greeting"/> */}

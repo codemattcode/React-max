@@ -33,8 +33,10 @@ render() {
 return(
 
 <div>
+
   <button onClick={this.add.bind(this)} style={btnStyle} className="btn btn-primary">Next</button>
   <p style={numb}>{this.state.raise}</p>
+
 </div>
 );
 }

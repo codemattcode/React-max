@@ -6,7 +6,7 @@ import { Home } from "./components/Home";
 import { Button } from "./components/Button";
 
 class App extends React.Component {
-    
+
   render() {
 
     const bodyStyle = {
@@ -24,7 +24,7 @@ class App extends React.Component {
 
             <Header links={links}/>
 
-            <Home/>
+            <Home propString="Hello, World!"/>
 
             <Button raise={1}/>
             {/* <Button raise="Greeting"/> */}

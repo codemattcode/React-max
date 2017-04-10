@@ -7,7 +7,7 @@ return(
 
 
 <div>
-    <p>Header</p>
+    <p>{this.props.children}</p>
 </div>
 
 );

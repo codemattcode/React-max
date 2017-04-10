@@ -13,9 +13,13 @@ class App extends React.Component {
 
     return (
 
-            <Header/>
-            
+        <div>
+            <Header>
+              <p>this is the header</p>
+            </Header>
             <Home user={user}/>
+
+        </div>
 
     );
   }

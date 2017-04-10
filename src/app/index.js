@@ -3,6 +3,7 @@ import { render } from "react-dom";
 
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
+import { Button } from "./components/Button";
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
 
             <Home/>
 
+            <Button />
         </div>
 
     );

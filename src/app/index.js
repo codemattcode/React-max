@@ -24,7 +24,8 @@ class App extends React.Component {
 
             <Home/>
 
-            <Button />
+            <Button raise={1}/>
+            {/* <Button raise="Greeting"/> */}
         </div>
 
     );

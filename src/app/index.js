@@ -6,6 +6,9 @@ import { Home } from "./components/Home";
 import { Button } from "./components/Button";
 
 class App extends React.Component {
+  sayHello() {
+    alert('Hello!');
+  }
   render() {
     const bodyStyle = {
       maxWidth: '800px',
@@ -15,9 +18,6 @@ class App extends React.Component {
     var links = {
       navs: ["This", "Is", "A", "Loop"]
     };
-    sayHello() = {
-      alert('Hello!');
-    }
 
     return (
 

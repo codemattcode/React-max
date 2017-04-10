@@ -6,7 +6,7 @@ import { Home } from "./components/Home";
 import { Button } from "./components/Button";
 
 class App extends React.Component {
-
+    
   render() {
 
     const bodyStyle = {

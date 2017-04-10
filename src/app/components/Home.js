@@ -3,7 +3,8 @@ import React from "react";
 export class Home extends React.Component {
 render() {
     const h1 = {
-      fontWeight: '100'
+      fontWeight: '100',
+      fontSize: '2.4em'
     };
 return(
 

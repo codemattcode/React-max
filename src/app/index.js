@@ -13,7 +13,7 @@ class App extends React.Component {
       margin: '20px auto'
     };
     var links = {
-      navs: ["Home", "About", "Portfolio", "Contact"]
+      navs: ["This", "Is", "A", "Loop"]
     };
 
     return (

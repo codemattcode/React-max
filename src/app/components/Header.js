@@ -4,14 +4,19 @@ export class Header extends React.Component {
 render() {
   const unorderedStyle = {
       float: 'right',
-      clear: 'both'
+      clear: 'both',
+      marginTop: '20px',
+      marginRight: '5px'
     };
   const listStyle = {
       float: 'left',
-      marginRight: '10px',
+      marginRight: '1px',
       listStyleType: 'none',
       fontSize: '1.25em',
-      fontWeight: '300'
+      fontWeight: '300',
+      background: 'rgb(109, 203, 35)',
+      color: 'white',
+      padding: '2px 5px'
     };
 
 return(

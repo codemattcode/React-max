@@ -7,11 +7,10 @@ class App extends React.Component {
   render() {
 
     var user = {
-      hobbies: ["Sports", "Reading", "Singing"]
+      hobbies: ["Sports", "Reading", "Singing", "Walking", "Painting"]
     };
 
     return (
-
 
             <Home user={user}/>
 

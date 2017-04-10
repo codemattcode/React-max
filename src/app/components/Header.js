@@ -5,9 +5,10 @@ render() {
 
 return(
 
-<ul>
-  <li><a href='#'>{this.props.children}</a></li>
-</ul>
+
+<div>
+    <p>Header</p>
+</div>
 
 );
 }

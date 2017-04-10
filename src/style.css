@@ -1,5 +1,15 @@
 /* hacky style sheet NOT in webpack bundle */
 
 body {
-  margin: 30px;
+  margin: 20px 30px;
+}
+
+ul.links{
+  float: right;
+  clear: both;
+}
+li{
+  float: left;
+  margin-right: 10px;
+  list-style-type: none;
 }

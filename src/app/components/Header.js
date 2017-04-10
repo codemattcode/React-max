@@ -7,7 +7,11 @@ return(
 
 
 <div>
-    <p>{this.props.children}</p>
+
+  <ul className="links">
+    {this.props.links.navs.map((nav, i) => <li key={i}>{nav}</li>)}
+  </ul>
+
 </div>
 
 );

@@ -7,17 +7,17 @@ import { Home } from "./components/Home";
 class App extends React.Component {
   render() {
 
-    var user = {
-      hobbies: ["Sports", "Reading", "Singing", "Walking", "Painting"]
+    var links = {
+      navs: ["Home", "About", "Portfolio", "Contact"]
     };
 
     return (
 
         <div>
-            <Header>
-              <p>this is the header</p>
-            </Header>
-            <Home user={user}/>
+
+            <Header links={links}/>
+
+            <Home/>
 
         </div>
 

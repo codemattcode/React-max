@@ -8,7 +8,9 @@ import { Button } from "./components/Button";
 class App extends React.Component {
   render() {
     const bodyStyle = {
-      margin: '20px 30px'
+      maxWidth: '800px',
+      width: '80%',
+      margin: '20px auto'
     };
     var links = {
       navs: ["Home", "About", "Portfolio", "Contact"]

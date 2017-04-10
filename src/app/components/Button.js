@@ -4,12 +4,12 @@ export class Button extends React.Component {
 
 render() {
   const btnStyle = {
-    marginTop: '10px'
+    marginTop: '10px',
+    padding: '10px 20px'
   };
 return(
-<div className='container'>
-  <button style={btnStyle} className="btn btn-primary">Hello</button>
-  <p>this is a {this.props.name}</p>
+<div>
+  <button style={btnStyle} className="btn btn-primary">Next</button>
 </div>
 );
 }

@@ -9,7 +9,9 @@ render() {
   const listStyle = {
       float: 'left',
       marginRight: '10px',
-      listStyleType: 'none'
+      listStyleType: 'none',
+      fontSize: '1.25em',
+      fontWeight: '300'
     };
 
 return(

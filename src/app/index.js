@@ -15,6 +15,9 @@ class App extends React.Component {
     var links = {
       navs: ["This", "Is", "A", "Loop"]
     };
+    sayHello() = {
+      alert('Hello!');
+    }
 
     return (
 
@@ -22,7 +25,7 @@ class App extends React.Component {
 
             <Header links={links}/>
 
-            <Home/>
+            <Home propString="Hello, World!" howdee={this.sayHello}/>
 
             <Button raise={1}/>
             {/* <Button raise="Greeting"/> */}

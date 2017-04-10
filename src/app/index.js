@@ -25,9 +25,9 @@ class App extends React.Component {
 
             <Header links={links}/>
 
-            <Home propString="Hello, World!" howdee={this.sayHello}/>
+            <Home propString="Hello, World!"/>
 
-            <Button raise={1}/>
+            <Button raise={1} howdee={this.sayHello}/>
             {/* <Button raise="Greeting"/> */}
         </div>
 
